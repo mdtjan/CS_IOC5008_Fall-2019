@@ -86,7 +86,7 @@ def save_mask(dir_ann='./dataset/pascal_train.json',
     return errors
 
 def unravel_mask(mask):
-    mask = np.array(mask) # << this is already correct
+    mask = np.array(mask)
 
     # remove 0 (background); label & mask in the same order
 
